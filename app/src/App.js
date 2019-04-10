@@ -1,10 +1,10 @@
-import React,{Component} from 'react';
-import './App.css';
+import React, { Component } from 'react';
+import BtnBotcamp from './Components/BtnBotcamp';
 
-class App extends Component{
-    render(){
-        return (<button className='btn-fundo'><span className='lbl-entrar'>ENTRAR</span></button>
-
+class App extends Component {
+    render() {
+        return (
+            <BtnBotcamp />
         );
     }
 }
