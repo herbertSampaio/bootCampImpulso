@@ -1,0 +1,9 @@
+{
+  "name": "bootCampImpulso",
+  "version": "1.0.0",
+  "description": "Projeto BotCamp Impulso NetWork",
+  "main": "index.js",
+  "repository": "https://github.com/herbertSampaio/bootCampImpulso.git",
+  "author": "Herbert Sampaio",
+  "license": "MPL-2.0"
+}
