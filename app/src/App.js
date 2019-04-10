@@ -9,8 +9,8 @@ class App extends Component {
     render() {
         return (
             <LoginWrapper>
-                <ImgBotCamp />
-                <BtnBotcamp />                
+                <ImgBotCamp alt="bot" />
+                <BtnBotcamp>ENTRAR</BtnBotcamp>                
             </LoginWrapper>
         );
     }
