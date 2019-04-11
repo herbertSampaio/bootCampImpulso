@@ -12,7 +12,9 @@
 
 import styled from 'styled-components';
 
-const BtnBotCamp = styled.button`
+const BtnBotCamp = styled.button.attrs({
+    children: props=>props.content
+})`
     width: 280px;
     height: 50px;
     border-radius: 25px;
@@ -25,8 +27,7 @@ const BtnBotCamp = styled.button`
     line-height: normal;
     letter-spacing: normal;
     color: #ffffff;
-    margin-top:367px;
-    margin-left:47px;
+    text-transform:uppercase;
 `;
 
 export default BtnBotCamp;

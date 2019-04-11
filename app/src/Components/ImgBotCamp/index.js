@@ -12,14 +12,11 @@
 import styled from 'styled-components';
 
 const ImgBotCamp = styled.img.attrs({
-    src:`${ImgBot}`
+    src:ImgBot,
+    alt:props=> props.alt
 })`
     width: 248px;
-    object-fit: contain;
-    margin-top:120px;
-    margin-left:63px;
-    margin-rigth:64px;
-    alt:${props=> props.alt};
+    object-fit: contain;    
 `;
 
 export default ImgBotCamp;

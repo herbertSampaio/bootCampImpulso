@@ -10,7 +10,7 @@ class App extends Component {
         return (
             <LoginWrapper>
                 <ImgBotCamp alt="bot" />
-                <BtnBotcamp>ENTRAR</BtnBotcamp>                
+                <BtnBotcamp content="Entrar"/>
             </LoginWrapper>
         );
     }
