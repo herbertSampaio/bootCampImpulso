@@ -1,6 +1,6 @@
 // import React from 'react';
 
- import ImgBot from '../../resources/botcamp.svg'
+ import ImgBot from '../../resources/botcamp.png'
 // import './style.css';
 
 // const ImgBotCamp = () => (
