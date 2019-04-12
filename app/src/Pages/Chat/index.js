@@ -3,12 +3,13 @@ import React from 'react';
 import ChatWrapper from '../../Components/ChatWrapper';
 import ImgBotCamp from '../../Components/ImgBotCamp';
 import ImgLogout from '../../Components/ImgLogout';
+import HeaderWrapper from '../../Components/HeaderWrapper';
 
 const Chat = () => (
-    <ChatWrapper>
+    <HeaderWrapper>
         <ImgBotCamp alt="img botcamp" />
         <ImgLogout alt="img logout"/>
-    </ChatWrapper>
+    </HeaderWrapper>
 );
 
 export default Chat;

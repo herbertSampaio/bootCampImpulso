@@ -1,6 +1,6 @@
-import Logout from '../../resources/logout.svg'
-
 import styled from 'styled-components';
+
+import Logout from '../../resources/logout.svg'
 
 const ImgLogout = styled.img.attrs({
     src:Logout,
