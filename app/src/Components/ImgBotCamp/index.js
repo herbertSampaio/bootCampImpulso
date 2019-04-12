@@ -15,7 +15,7 @@ const ImgBotCamp = styled.img.attrs({
     src:ImgBot,
     alt:props=> props.alt
 })`
-    width: 248px;
+    width: ${ props=> (props.small ? "200px" : "248px")};
     object-fit: contain;    
 `;
 
